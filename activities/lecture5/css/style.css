@@ -1,0 +1,104 @@
+/* General Styles for a default screen size */
+
+/* ======================================== */
+
+body {
+  width: 90%;
+  color: #333;
+  font: normal 16px/150% Arial, Helvetica, sans-serif;
+  background-color: #ededed;
+  margin: 20px auto 0 auto;
+}
+
+.page {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1em;
+  box-sizing: border-box;
+  border: #ccc solid 1px;
+}
+
+.page p {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+  color: #273c75;
+  font: bold 2.5em/1em Futura, sans-serif;
+  font-variant: small-caps;
+  border-bottom: 2px #dcdde1 dotted;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+form.calculator {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f5f6fa;
+  padding: 1em;
+  position: relative;
+  border-radius: 3px;
+}
+
+form.calculator fieldset {
+  border: solid thin #ced6e0;
+}
+form.calculator legend {
+  color: #a4b0be;
+}
+
+form.calculator label {
+  color: #747d8c;
+  font-size: 0.9em;
+  margin-right: 0.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+form.calculator input {
+  width: 5em;
+  margin-left: 0;
+  margin-right: 1em;
+  display: inline-block;
+  border: 0.1em solid #ced6e0;
+  padding: 0.6em;
+  border-radius: 2px;
+}
+
+form.calculator input.active {
+  /* write your CSS code to alter the border 
+	and background color of the input control */
+  border-color: #57606f;
+  font-weight: bold;
+}
+
+form.calculator button {
+  border-radius: 2px;
+  background-color: #ff7f50;
+  border: 1px solid #ff6348;
+  color: white;
+  font-weight: bold;
+  padding: 0.5em 0.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-right: 1.2em;
+}
+
+form.calculator p.result {
+  font-size: 1em;
+  color: #57606f;
+}
+
+footer {
+  margin-top: 0.2em;
+  padding: 1em;
+  text-align: center;
+}
