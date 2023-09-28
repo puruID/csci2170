@@ -12,7 +12,7 @@
         <h4>The Book Store</h4>
         <div>
             <ul id = "navbar">
-                <li><a class name="active" href="index.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="About.html">About</a></li>
                 <li><a href="contact.html">contact us</a></li>
                 <li><a href="cart.html">cart</a></li>
@@ -24,16 +24,17 @@
         <h2>on all products</h2>
         <p>Save more with coupons & upto 70% off!</p>
         <button id ="button">shop now!</button>
-        <img src="images/webpagecover.jpeg">
+        <img src="images/webpagecover.jpeg" alt="bookpage">
     </section>
-    <section class = "books">
+    <div class = "books">
+        
         <div class = "image-container">
             
         <img src = "images/image1.webp" alt="book2">
         <img src = "images/image2.jpeg" alt="book2">
         <img src = "images/image3.webp" alt="book3">
     </div>
-    </section>
+    </div>
    <?php include 'includes/books.php'; ?>
    <section class="book-container">
         <?php foreach ($books as $book): ?>

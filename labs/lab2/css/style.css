@@ -83,6 +83,8 @@ body {
     padding: 0;
 }
 
+
+
 header {
     background-color: #333;
     color: #fff;
@@ -130,17 +132,19 @@ footer {
 }
 
 
-.books {
+#books {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh; /* Adjust as needed to control the height */
 }
 
-.book-container {
+#book-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
+
+
 
 .book {
     flex-grow: 1;
