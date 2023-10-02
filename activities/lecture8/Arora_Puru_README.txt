@@ -1,3 +1,3 @@
 NAME: PURU ARORA(B00887468) 
 LECTURE8 ACTIVITY 
-Git URL : https://git.cs.dal.ca/parora/csci2170.git1.Regular expression for Last_Name: [a-zA-ZÕ-] TEST CASES: O'Donnell, Smith-Burns, Smith 2.Regular expression for Phone_Number: (?:\+\d{1,2}|\(\d{3}\)?)+\d{3}[-]\d{4} TEST CASES: (XXX) XXX-XXXX, +X (XXX) XXX-XXXX 3.Regular expression for Home_Address: \d{1,4}\s[A-Za-z]+\s(?:Street|St\.?|Avenue|Ave\.?|Name\.?) TEST CASES: XXX Street Name, XXX Street St., XX Name Avenue, XX Name Ave. 
+Git URL : https://git.cs.dal.ca/parora/csci2170.git1.Regular expression for Last_Name: [a-zA-ZÕ-] TEST CASES: O'Donnell, Smith-Burns, Smith 2.Regular expression for Phone_Number: (?:\+\d{1,2}|\(\d{3}\)?)+\d{3}[-]\d{4} TEST CASES: (XXX)XXX-XXXX, +X(XXX)XXX-XXXX 3.Regular expression for Home_Address: \d{1,4}\s[A-Za-z]+\s(?:Street|St\.?|Avenue|Ave\.?|Name\.?) TEST CASES: XXX Street Name, XXX Street St., XX Name Avenue, XX Name Ave. 
