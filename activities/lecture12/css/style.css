@@ -1,0 +1,99 @@
+/* general styling for fonts used */
+body {
+  color: #333;
+  font: normal 16px/150% Arial, Helvetica, sans-serif;
+  background-color: #ededed;
+  margin: 20px auto 0 auto;
+  font-size: 15px;
+}
+/* style for page wrap */
+#container {
+  width: 50%;
+  min-width: 700px;
+  height: 500px;
+  padding: 1.1em;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1em;
+  box-sizing: border-box;
+  border: #ccc solid thin;
+}
+
+/* form styling */
+form {
+  font-size: 1em;
+  width: 80%;
+  margin: 2em auto;
+  background-color: #f5f6fa;
+  padding: 1em;
+  border-radius: 3px;
+}
+
+/* fieldset styling */
+fieldset {
+  margin: 1em 0;
+  background-color: #f5f5f5;
+  border: #eee solid thin;
+}
+form legend {
+  color: #a4b0be;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+form p {
+  position: relative;
+  width: 100%;
+}
+
+/* style for  labels */
+form label {
+  float: left;
+  width: 8em;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 0.4em;
+  padding-top: 0.2em;
+  color: #8395a7;
+}
+
+input[type="text"],
+textarea,
+input[type="password"], select {  
+  border: solid #dfe6e9 thin;
+  padding: 5px;
+  padding: 0.5em;
+}
+
+input[type="submit"] {
+  width: auto;
+  background: #10ac84;
+  border: solid thin #01a3a4;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 0.5em;
+  float: right;
+}
+
+/* style form elements on focus */
+input:focus,
+select:focus {
+  background: #ffc;
+}
+
+/* error messages */
+.error {
+  clear: both;
+  color: #700;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* success messages */
+.success {
+  clear: both;
+  color: #222f3e;
+  font-size: 1em;
+  font-weight: bold;
+}
