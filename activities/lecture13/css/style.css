@@ -1,0 +1,28 @@
+/* general styling for fonts used */
+body {
+  font: 9pt/1.5 "Helvetica Neue", Verdana, Arial, sans-serif;
+  background-color: #ccc;
+}
+/* style for page wrap */
+#container {
+  width: 900px;
+  height: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+h1 {
+  margin-top: 3em;
+  text-align: center;
+  color: #535c68;
+  padding: 0; 
+}
+
+.important {
+  padding-bottom: 3px;
+  border-bottom: solid 3px #222f3e;
+  color: #222f3e;
+  font-size: 2.5em;
+}
