@@ -1,14 +1,14 @@
 This is a e-comm website made by @Puru Arora for a course-work lab assignment. 
 The whole code was written by the author of the website but images were used from the internet.
-# LAb2
+# LAb5
 
 
-* *Date Created*: 27 09 2023
-* *Last Modification Date*: 28 09 2023
-* *Lab URL*: <https://web.cs.dal.ca/~parora/csci2170/lab2/index.php>
-* *Git URL*: <hhttps://git.cs.dal.ca/parora/csci2170.git>
+* *Date Created*: 23 10 2023
+* *Last Modification Date*: 25 10 2023
+* *Lab URL*: <https://web.cs.dal.ca/~parora/csci2170/lab5/index.php>
+* *Git URL*: <https://git.cs.dal.ca/parora/csci2170.git>
 
-## Sources Used - only images from the internet were used
+## Sources Used - only images from the internet were used and lab2 data was used as it was required
 
 
 image1.webp 
